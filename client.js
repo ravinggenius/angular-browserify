@@ -2,6 +2,8 @@ var angular = require('angular');
 
 var app = angular.module('fooTest', [
 	require('angular-ui-router')
+	//https://github.com/dpiccone/ng-pageslide
+	//https://github.com/btford/angular-modal
 ]);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
